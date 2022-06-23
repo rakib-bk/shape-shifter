@@ -47,7 +47,7 @@ private val LightColorPalette = lightColors(
 )
 
 @Composable
-fun BkashBusinessAppTheme(content: @Composable () -> Unit) {
+fun ShapeShifterTheme(content: @Composable () -> Unit) {
     val colors = LightColorPalette
 
     MaterialTheme(
@@ -58,7 +58,7 @@ fun BkashBusinessAppTheme(content: @Composable () -> Unit) {
     )
 }
 
-object BusinessAppRippleTheme : RippleTheme {
+object ShapeShifterTheme : RippleTheme {
 
     val alpha = RippleAlpha(
         focusedAlpha = .8f,

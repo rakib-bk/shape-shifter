@@ -1,4 +1,4 @@
-package com.bkash.businessapp.shared
+package com.rakib.shapeshifter
 
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.layout.Spacer
@@ -22,7 +22,7 @@ fun ProceedButton(
     disabledBackgroundColor: Color = AppColor.Disabled,
     disabledContentColor: Color = AppColor.AdditionalText,
     text: String,
-    @DrawableRes iconRes: Int = R.drawable.ic_arrow_forward_gray_24dp,
+//    @DrawableRes iconRes: Int = R.drawable.ic_arrow_forward_gray_24dp,
     enabled: Boolean = false,
     onClick: () -> Unit
 ) {
@@ -45,10 +45,10 @@ fun ProceedButton(
         )
         Spacer(modifier = modifier.weight(1f))
 
-        Icon(
-            painter = painterResource(id = iconRes),
-            contentDescription = ""
-        )
+//        Icon(
+////            painter = painterResource(id = iconRes),
+//            contentDescription = ""
+//        )
     }
 }
 
